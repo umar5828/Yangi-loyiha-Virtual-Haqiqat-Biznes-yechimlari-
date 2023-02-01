@@ -1,27 +1,36 @@
 body{
     background: #111827;
+    height: 5000px;
 }
 a{
     list-style: none;
     text-decoration: none;
 }
 
-
+.main-header{
+   margin-top: -20px;
+}
 .main-header>div{
 display: flex;
+}
+.navbar{
+    display: flex;
 }
 .nav-bar__ul>ul{
     display: flex;
 }
 .nav-bar__ul ul li {
     display: flex;
-    padding: 25px;
+    margin: 15px;
+    margin-top: 30px;
 }
 .nav-bar__ul ul li a{
     color: #fff;
 }
 .nav-bar__li{
-    margin-top: 15px;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 300;
 }
 .btn-flex{
     display: flex;
@@ -32,10 +41,90 @@ display: flex;
     background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
     color: #fff;
     padding: 0.5rem 1.2rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
+    font-weight: 300;
     cursor: pointer;
 }
 .btn:hover {
     background: linear-gradient(90.35deg, #D946EF 0.36%, #2563EB 201.02%);
     transition: 4s linear;
+}
+.row{
+}
+.col-md-6{
+}
+.col-md-6>h3{
+    background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 7%);
+}
+.col-md-6>p{
+    font-size: 1.05rem;
+    line-height: 2rem;
+    color: #fff;
+    padding-bottom: 3rem;
+}
+.button{
+    display: flex;
+    gap: 3rem;
+    margin-top: -40px;
+}
+.watch-video{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    font-size: 14px;
+}
+.sally{
+    width: 570px;
+    height: 570px;
+    filter: drop-shadow(0px 0px 0.9rem #2563EB);
+}
+.our-services{
+    color: #fff;
+    font-size: 4.2rem;
+    padding-bottom: 1rem;
+}
+.col-12{
+    font-size: 1.2rem;
+    color: #f8f7f9;
+    line-height: 1.5rem;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.card{
+    background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+    box-shadow: 0px 22px 18px rgb(0 0 0 / 5%);
+    padding: 5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.card-img{
+    width: 74px;
+    height: 74px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+.card-title{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    width: 100%;
+}
+.card-text-1{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-title-1{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
