@@ -1,0 +1,41 @@
+body{
+    background: #111827;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.main-header>div{
+display: flex;
+}
+.nav-bar__ul>ul{
+    display: flex;
+}
+.nav-bar__ul ul li {
+    display: flex;
+    padding: 25px;
+}
+.nav-bar__ul ul li a{
+    color: #fff;
+}
+.nav-bar__li{
+    margin-top: 15px;
+}
+.btn-flex{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.btn{
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.btn:hover {
+    background: linear-gradient(90.35deg, #D946EF 0.36%, #2563EB 201.02%);
+    transition: 4s linear;
+}
